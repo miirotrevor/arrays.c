@@ -1,0 +1,130 @@
+#include <stdio.h>
+
+int main() {
+    // Students information
+    char name1[] = "Namakula Resty";
+    int assignment1_score1 = 78;
+    int assignment2_score1 = 80;
+    int assignment3_score1 = 66;
+    float average_score1 = (assignment1_score1 + assignment2_score1 + assignment3_score1) / 3.0;
+
+    char name2[] = "John Walusimbi";
+    int assignment1_score2 = 85;
+    int assignment2_score2 = 75;
+    int assignment3_score2 = 72;
+    float average_score2 = (assignment1_score2 + assignment2_score2 + assignment3_score2) / 3.0;
+
+   
+    char name3[] = "Jane Murungi";
+    int assignment1_score3 = 90;
+    int assignment2_score3 = 88;
+    int assignment3_score3 = 68;
+    float average_score3 = (assignment1_score3 + assignment2_score3 + assignment3_score3) / 3.0;
+
+    char name4[] = "Joel Rugaba";
+    int assignment1_score4 = 90;
+    int assignment2_score4 = 88;
+    int assignment3_score4 = 70;
+    float average_score4 = (assignment1_score4 + assignment2_score4 + assignment3_score4) / 3.0;
+
+    char name5[] = "James Lutalo ";
+    int assignment1_score5 = 70;
+    int assignment2_score5 = 88;
+    int assignment3_score5 = 58;
+    float average_score5 = (assignment1_score5 + assignment2_score5 + assignment3_score5) / 3.0;
+
+    char name6[] = "Reagan Williams";
+    int assignment1_score6 = 90;
+    int assignment2_score6 = 88;
+    int assignment3_score6 = 68;
+    float average_score6 = (assignment1_score6 + assignment2_score6 + assignment3_score6) / 3.0;
+
+    char name7[] = "Evan Bugaba";
+    int assignment1_score7 = 90;
+    int assignment2_score7 = 72;
+    int assignment3_score7 = 68;
+    float average_score7 = (assignment1_score7 + assignment2_score7 + assignment3_score7) / 3.0;
+
+    char name8[] = "Rita Magezi";
+    int assignment1_score8 = 80;
+    int assignment2_score8 = 77;
+    int assignment3_score8 = 68;
+    float average_score8 = (assignment1_score8 + assignment2_score8 + assignment3_score8) / 3.0;
+
+    char name9[] = "Maria Asiimwe";
+    int assignment1_score9 = 90;
+    int assignment2_score9 = 88;
+    int assignment3_score9 = 78;
+    float average_score9 = (assignment1_score9 + assignment2_score9 + assignment3_score9) / 3.0;
+
+    char name10[] = "Robert Mugume";
+    int assignment1_score10 = 90;
+    int assignment2_score10 = 70;
+    int assignment3_score10 = 68;
+    float average_score10 = (assignment1_score10 + assignment2_score10 + assignment3_score10) / 3.0;
+
+    char name11[] = "Miriam Mugerwa";
+    int assignment1_score11 = 50;
+    int assignment2_score11 = 88;
+    int assignment3_score11 = 78;
+    float average_score11 = (assignment1_score11 + assignment2_score11 + assignment3_score11) / 3.0;
+
+    char name12[] = "Reign Josh";
+    int assignment1_score12 = 70;
+    int assignment2_score12 = 68;
+    int assignment3_score12 = 88;
+    float average_score12 = (assignment1_score12 + assignment2_score12 + assignment3_score12) / 3.0;
+
+    char name13[] = "Mary Jane";
+    int assignment1_score13 = 50;
+    int assignment2_score13 = 88;
+    int assignment3_score13 = 68;
+    float average_score13 = (assignment1_score13 + assignment2_score13 + assignment3_score13) / 3.0;
+
+    char name14[] = "John mark Mugisha";
+    int assignment1_score14 = 60;
+    int assignment2_score14 = 88;
+    int assignment3_score14 = 68;
+    float average_score14 = (assignment1_score14 + assignment2_score14 + assignment3_score14) / 3.0;
+
+    char name15[] = "Amanda Jesca";
+    int assignment1_score15 = 70;
+    int assignment2_score15 = 88;
+    int assignment3_score15 = 78;
+    float average_score15 = (assignment1_score15 + assignment2_score15 + assignment3_score15) / 3.0;
+  
+  // Display the information
+    printf("No\tName\t\t\t\tAssignment 1\tAssignment 2\tAssignment 3\tAverage Score\n");
+    printf("-------------------------------------------------------------------------------\n");
+    printf("1\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name1, assignment1_score1, assignment2_score1, assignment3_score1, average_score1);
+    
+    printf("2\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name2, assignment1_score2, assignment2_score2, assignment3_score2, average_score2);
+    
+    printf("3\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name3, assignment1_score3, assignment2_score3, assignment3_score3, average_score3);
+    
+    printf("4\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name4, assignment1_score4, assignment2_score4, assignment3_score4, average_score4);
+    
+     printf("5\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name5, assignment1_score5, assignment2_score5, assignment3_score5, average_score5);
+     
+     printf("6\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name6, assignment1_score6, assignment2_score6, assignment3_score6, average_score6);
+     
+     printf("7\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name7, assignment1_score7, assignment2_score7, assignment3_score7, average_score7);
+     
+     printf("8\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name8, assignment1_score8, assignment2_score8, assignment3_score8, average_score8);
+     
+     printf("9\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name9, assignment1_score9, assignment2_score9, assignment3_score9, average_score9);
+     
+     printf("10\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name10, assignment1_score10, assignment2_score10, assignment3_score10, average_score10);
+     
+     printf("11\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name11, assignment1_score11, assignment2_score11, assignment3_score11, average_score11);
+     
+     printf("12\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name12, assignment1_score12, assignment2_score12, assignment3_score12, average_score12);
+     
+     printf("13\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name13, assignment1_score13, assignment2_score13, assignment3_score13, average_score13);
+     
+     printf("14\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name14, assignment1_score14, assignment2_score14, assignment3_score14, average_score14);
+     
+     printf("15\t%-30s%d\t\t\t%d\t\t\t%d\t\t\t%.2f\n", name15, assignment1_score15, assignment2_score15, assignment3_score15, average_score15);
+  
+    return 0;
+}
